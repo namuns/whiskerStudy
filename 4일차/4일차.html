@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>4일차</title>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <label for="input">이름</label>
+            <input id="input" type="input" placeholder="입력해주세요." />
+        </li>
+        <li>
+            <label for="name">이름</label>
+            <input id="name" type="text" value="하이" readonly="ture" />
+        </li>
+
+        <li>
+            <label for="name">이름</label>
+            <input id="name" type="text" value="하이" disabled />
+        </li>
+
+        <li>
+            <label for="password">비밀번호</label>
+            <input id="password" type="password" />
+        </li>
+
+        <li>
+            <label for="search">search</label>
+            <input id="search" type="search" />
+        </li>
+
+        <li>
+            <label for="url">url</label>
+            <input id="url" type="url" />
+        </li>
+
+        <li>
+            <label for="email">이메일</label>
+            <input id="email" type="email" />
+        </li>
+
+        <li>
+            <label for="tel">tel</label>
+            <input id="tel" type="tel" maxlength="10" />
+        </li>
+
+        <li>
+            <label for="checkbox">사과: </label>
+            <input id="checkbox" type="checkbox" />
+            <label for="checkbox2">배: </label>
+            <input id="checkbox2" type="checkbox" />
+            <label for="checkbox3">사과: </label>
+            <input id="checkbox3" type="checkbox" />
+        </li>
+
+        <li>
+            <label for="radio">사과: </label>
+            <input id="radio" name="radio" type="radio" />
+            <label for="radio2">배: </label>
+            <input id="radio2" name="radio" type="radio" />
+            <label for="radio3">사과: </label>
+            <input id="radio3" name="radio" type="radio" />
+            "체크박스는 name이 같아야 단일이냐 다중으로 나뉜다."
+        </li>
+
+        <li>
+            <label for="radio">사과: </label>
+            <input id="radio" name="radio" type="radio" />
+            <label for="radio2">배: </label>
+            <input id="radio2" name="radio2" type="radio" />
+            <label for="radio3">사과: </label>
+            <input id="radio3" name="radio3" type="radio" />
+        </li>
+
+        <li>
+            <label for="number">number</label>
+            <input id="number" type="number" />
+        </li>
+
+        <li>
+            <label for="range">range</label>
+            <input id="range" type="range" min="4" max="10" step="2" />
+        </li>
+        // document.getElementById("range").value
+
+        <li>
+            <label for="date">date</label>
+            <input id="date" type="date" />
+        </li>
+
+        <li>
+            <label for="month">month</label>
+            <input id="month" type="month" />
+        </li>
+
+        <li>
+            <label for="week">week</label>
+            <input id="week" type="week" />
+        </li>
+
+        <li>
+            <label for="time">time</label>
+            <input id="time" type="time" />
+        </li>
+
+        <li>
+            <label for="datetime">datetime</label>
+            <input id="datetime" type="datetime-local" />
+        </li>
+
+        <li>
+            <label for="submit">submit</label>
+            <input id="submit" type="submit" />
+        </li>
+
+        <li>
+            <form>
+                <input type="text" id="reset">
+                <label for="reset">reset</label>
+                <input id="reset" type="reset" />
+                <button type="reset">
+                    버튼
+                </button>
+            </form>
+        </li>
+
+        <li>
+            <label for="image">image</label>
+            <input id="image" type="image" />
+        </li>
+
+        <li>
+            <label for="button">button</label>
+            <input id="button" type="button" value="버튼" />
+        </li>
+
+        <li>
+            <label for="file">file</label>
+            <input id="file" type="file" />
+        </li>
+
+        <li>
+            <label for="hidden">hidden</label>
+            <input id="hidden" type="hidden" />
+        </li>
+
+        <li>
+            <label for="select"></label>
+            <select name="select" id="select">
+                <option>1</option>
+                <option selected>2</option>
+                <option>3</option>
+            </select>
+        </li>
+
+        <li>
+            <label for="textarea"> texarea: </label>
+            <textarea name="textarea" id="textarea" cols="10" rows="5"></textarea>
+        </li>
+        <li>
+            <button type="reset">
+                버튼
+            </button>
+        </li>
+    </ul>
+
+    <li>
+        회원가입 폼 만들기 과제
+        항목: ID, 비밀번호, 이름, 생년월일, 주소, 전화번호, 이메일
+        나이, 자기소개, 체크박스로 좋아하는 과일(사과, 바나나, 등)
+        라디오로 성별, 등록버튼 / 리셋버튼
+    </li>
+</body>
+
+</html>
