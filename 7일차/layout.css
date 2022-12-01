@@ -1,0 +1,11 @@
+#wrap{
+	position:relative;
+}
+#hrader{
+	background-color:black;
+}
+
+#header #logo{
+	float:left;
+	color:white;
+}
