@@ -1,0 +1,56 @@
+#wrap{
+	position:relative;
+}
+#header{
+	background-color:#ff7600;
+}
+#header::after{
+	content:"";
+	display:block;
+	clear:both;
+}
+#header #logo{
+	float:left;
+	width:100px;
+}
+
+
+#header{
+	display:inline-block;
+}
+
+#site-map{
+	 float: right;
+}
+
+.area {
+  display: table;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+li {
+  display: table-cell;
+  list-style: none
+}
+
+li.item {
+  border: 1px solid #ff7600;
+  text-align: center;
+  line-height: 130px;
+}
+
+ul:before {
+  content: '';
+}
+
+ul:after {
+  content: '';
+}
+
+#footer{
+    padding: 100px 0 0 230px;
+}

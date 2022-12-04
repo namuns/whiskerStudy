@@ -1,0 +1,70 @@
+<!dotype html>
+	<html lang="ko">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>휘스커 홈페이지</title>
+	<link rel="stylesheet" href="layout.css" type="text/css">
+	<style>
+		
+		
+
+	</style>
+<head>
+
+<body>
+	<div id="wrap">
+		<header id="header">
+			<img src="https://www.whisker.kr/resources/wis-layout/images/common/head_logo.svg" id="logo">
+				
+			
+			<nav id="">
+				<ul class="area">
+					<li><a href="https://www.whisker.kr/pages/sub/sub0101">회사</a></li>
+					<li><a href="https://www.whisker.kr/pages/sub/sub02">사업소개</a></li>
+					<li><a href="https://www.whisker.kr/pages/sub/sub0301">고객지원</a></li>
+				</ul>
+			</nav>
+			<button type="button" id="site-map">사이트맵</button>
+		</header>
+
+		<main id="main">
+			<section>
+				<ul class="area">
+					<li class="item">
+						<a href="https://www.whisker.kr/pages/sub/sub0201_01">
+							솔루션 공급
+						</a>
+					</li>
+					<li class="item">
+						<a href="https://www.whisker.kr/pages/sub/sub0202_01">
+							홈페이지 구축
+						</a>
+					</li>
+					<li class="item">
+						<a href="https://www.whisker.kr/pages/sub/sub0203_01">
+							시스템 통합
+						</a>
+					</li>
+					<li class="item">
+						<a href="https://www.whisker.kr/pages/sub/sub0204_01">
+							웹진/뉴스레터
+						</a>
+					</li>
+				</ul>
+			</section>
+		</main>
+
+		<footer id="footer">
+			<div class="footer-info">
+				<h1>? 을 ! 로 바꾸는 우리는 whisker 입니다.</h1>
+				<address>누드캐슬</address>
+				<p>Copyright @ 2022-12-01 남문수 제작</p>
+			</div>
+		</footer>
+	</div>
+
+
+</body>
+
+</html>

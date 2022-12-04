@@ -8,7 +8,9 @@
 	<link rel="stylesheet" href="layout.css" type="text/css">
 	<style>
 		li {
-		  display:inline-block;
+		  width: 300px;
+		  margin-left: auto;
+		  margin-right: auto;
 		}
 	</style>
 <head>
