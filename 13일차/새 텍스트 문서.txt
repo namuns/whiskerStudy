@@ -1,0 +1,36 @@
+반응형웹 - 하나의 소스로 관리가됨(시간절약) 최적화 어려움
+
+적응형웹(m.naver.com) - 관리가 어려움 => 비용이 비쌈
+
+가장 최적화된 사이즈를 어떻게 잡나?
+
+rem = 가장 큰, 최상위 부모를 따라간다. html{font-size:16px}  이면 1rem은 16px
+
+em = 바로 위 부모를 따라간다. 
+
+<meta name="viewport" content="width=device-width, initial-sacle=1">
+
+width 뷰포트의 가로크기
+initical-scale
+
+user-scalable = 사용자의 축소.확대 허용여부, 초기값은 yes며 no로 금지가능
+
+minimun-scale = 뷰포트의 최소배율값(0~10)
+maximum-scale = 뷰포트의 최대배율값(0~10)
+
+ex) custom.css @media only print{ } 
+<미디어 유형>
+all = 모든디바이스 대상
+print = 인쇄 및 결과물 미리보기문서
+screen = 화면대상
+
+<논리연산자>
+and 모든 쿼리가 참이여야 적용
+not 모든 쿼리가 거짓이어야 적용
+, (comma) 어느하나라도 참이면 적용(or에 해당)
+only 미디어쿼리를 지원하는 브라우저만 적용
+
+<특성>
+width 뷰포트 넓이
+height 높이
+aspect -ratio
